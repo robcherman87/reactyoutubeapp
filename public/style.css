@@ -1,9 +1,20 @@
-.search-bar {
+  textarea, input, button { 
+    outline: none; 
+  }
+  html, body, .container {
+    background-color:#212121 !important;
+  }
+  .search-bar {
     margin: 20px;
-    text-align: center;
+    text-align: center; 
   }
   .search-bar input {
     width: 35%;
+    border:none;
+    font-size:22px;
+    text-transform:uppercase;
+    background-color:#212121;
+    color:#f1f1f1;
   }
   .video-item img {
     max-width: 64px;
@@ -24,5 +35,9 @@
     font-size: 22px;
     padding: 10px 0;
     font-weight: 700;
+    color:#f1f1f1;
+  }
+  .video-detail h1, .details {
+    color:#f1f1f1;
   }
   
